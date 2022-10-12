@@ -5,7 +5,7 @@ channel:
   credentials:
   - type: ip-white-list
     allowedIps:
-      - 177.234.192.*
+      - *.*.*.*
 calls:
 - method: SayHello
 #  credentials:
